@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=.;/, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+    <div class="outer-container">
+        <div class = "inner-container">
+            <div class = "header"><h1>IT suppy order form</h1> </div>
+            <div class = "name label"><label for="name">Name</div>
+            <div class = "input-name">
+                <input type="text" id="name" name="name" required minlength="3" maxlength="14" size="10" />
+            </div>
+            <div class = "department label"> <label for="department">Department</div>
+            <div class = "input-department">
+                <input type="text" id="department" name="department" required minlength="4" maxlength="14" size="10" />
+            </div>
+            <div class = "item label"><label for="item">Item</label></div>
+            <div class = "dropdown-menu">
+                <select class = "selector" item" id="item">
+                    <option value="none">None</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="c++">C++</option>
+                    <option value="java">Java</option>
+                </select>
+            </div>
+            <div class = "amount label"><label id="amount">Amount</label></div>
+            <div class = "input-amount">
+                <input type="text" id="amount" name="amount" required minlength="1" maxlength="4" size="7" />
+            </div>
+            <div class="submit-button">
+                <button class="button"> Submit </button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
