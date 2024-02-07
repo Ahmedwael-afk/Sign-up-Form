@@ -1,0 +1,57 @@
+.outer-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.inner-container{
+    text-align: left;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 40px;
+
+}
+
+.label{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+input{
+    margin-bottom: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.selector{
+    width: 204px;
+    height: 21px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.button{
+    position: relative;
+    cursor: pointer;
+    left: 60px;
+    top: 20px;
+    background-color: blue;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header{
+    font-size: 10px;
+}
+
