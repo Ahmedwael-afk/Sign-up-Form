@@ -1,4 +1,4 @@
-# This is a small project to test my new acquired HTML and CSS skills
+# This is a small project to test my newly acquired HTML and CSS skills
 
 
 # Sign-up-Form
